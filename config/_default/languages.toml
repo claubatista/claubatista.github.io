@@ -1,0 +1,13 @@
+[en]
+title = "Hi, I'm Clau!"
+weight = 1
+LanguageName = "EN"
+contentDir = "content/english"
+
+[br]
+title = "Oi, sou a Clau!"
+description = """Brasielira perdida em Berlim, jogadora de roller derby, apaixonada por animais #dogperson, ah e também sou uma desenvolvedora frontend.
+"""
+contentDir = "content/portugues"
+weight = 2
+LanguageName = "PT-BR"

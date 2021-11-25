@@ -1,0 +1,10 @@
+baseURL = 'http://claubatista.github.io/'
+languageCode = "en"
+DefaultContentLanguage = "en"
+theme = "anatole"
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+

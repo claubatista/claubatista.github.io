@@ -1,0 +1,11 @@
+[[main]]
+url = "/br/"
+identifier = "home"
+name   = "Home"
+weight = 100
+
+[[main]]
+name = "Posts"
+weight = 200
+identifier = "posts"
+url = "/br/post/"

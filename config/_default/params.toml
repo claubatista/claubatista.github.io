@@ -1,0 +1,39 @@
+author = "Clau Batista"
+description = """brazilian lost in berlin, roller derby player, animal lover #dogperson
+and oh yeah, I also do some frontend developement.
+"""
+profilePicture = "images/eu.jpg"
+contentratio = 0.7
+customCss = ["css/custom.css", "css/styles.css"]
+enableRobotsTXT = true
+rssFullContent = true
+# Date Formats
+ singleDateFormat = "02 Jan 2006"
+    indexDateFormat = "02 Jan 2006"
+    listDateFormat = "02 Jan"
+googleFonts = [
+  "Krub",
+  "Krub:ital,wght@0,100;0,400;0,700;1,400"
+]
+
+## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
+[[socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/claubatista/"
+
+[[socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/claubatista"
+
+[[socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:cdsbatistax@gmail.com"
+
+[[socialIcons]]
+icon = "fas fa-rss"
+title = "rss"
+url = "/index.xml"
