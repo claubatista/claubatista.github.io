@@ -15,6 +15,7 @@ googleFonts = [
   "Krub",
   "Krub:ital,wght@0,100;0,300;0,700;1,400"
 ]
+readMore = true
 
 ## Social links
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
