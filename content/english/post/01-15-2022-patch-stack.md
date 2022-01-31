@@ -2,7 +2,7 @@
 author: Clau Batista
 title: Patch stacks
 date: 2022-01-15
-description: A introduction about my Outreachy internship
+description: 
 tags: [outreachy, internship, devtools, firefox]
 series:
   - series-outreachy
