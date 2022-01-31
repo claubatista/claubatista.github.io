@@ -2,13 +2,11 @@
 <title>
 Clau Batista
 |
-internship
+HTTP Edit & Resend Panel
 </title>
 <meta charset=utf-8><meta name=generator content="Hugo 0.92.1"><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name=description content="
-      brazilian lost in berlin, roller derby player, animal lover #dogperson
-and oh yeah, I also do some frontend developement.
-
+      A introduction about my Outreachy internship
 
 
     ">
@@ -24,21 +22,24 @@ and oh yeah, I also do some frontend developement.
 <link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
 <link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
 <link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
-<link rel=canonical href=/tags/internship/>
-<link rel=alternate type=application/rss+xml href=/tags/internship/index.xml title="Hi, I'm Clau!">
+<link rel=canonical href=/post/01-31-2022-edit-and-resend/>
 <script type=text/javascript src=/js/anatole-header.min.2a2cd9614b7d007dfbb75e8da19e3a0fa872ceab53c6d000c00b7a0c89b85bfc.js integrity="sha256-KizZYUt9AH37t16NoZ46D6hyzqtTxtAAwAt6DIm4W/w=" crossorigin=anonymous></script>
 <script type=text/javascript src=/js/anatole-theme-switcher.min.7fd87181cdd7e8413aa64b6867bb32f3a8dc242e684fc7d5bbb9f600dbc2b6eb.js integrity="sha256-f9hxgc3X6EE6pktoZ7sy86jcJC5oT8fVu7n2ANvCtus=" crossorigin=anonymous></script>
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="internship">
-<meta name=twitter:description content="brazilian lost in berlin, roller derby player, animal lover #dogperson
-and oh yeah, I also do some frontend developement.
-">
-<meta property="og:title" content="internship">
-<meta property="og:description" content="brazilian lost in berlin, roller derby player, animal lover #dogperson
-and oh yeah, I also do some frontend developement.
-">
-<meta property="og:type" content="website">
-<meta property="og:url" content="http://claubatista.github.io/tags/internship/"><meta property="og:site_name" content="Hi, I'm Clau!">
+<meta name=twitter:title content="HTTP Edit & Resend Panel">
+<meta name=twitter:description content="A introduction about my Outreachy internship">
+<meta property="og:title" content="HTTP Edit & Resend Panel">
+<meta property="og:description" content="A introduction about my Outreachy internship">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://claubatista.github.io/post/01-31-2022-edit-and-resend/"><meta property="article:section" content="post">
+<meta property="article:published_time" content="2022-01-15T00:00:00+00:00">
+<meta property="article:modified_time" content="2022-01-15T00:00:00+00:00"><meta property="og:site_name" content="Hi, I'm Clau!">
+<meta property="og:see_also" content="http://claubatista.github.io/post/01-15-2022-patch-stack/"><meta property="og:see_also" content="http://claubatista.github.io/post/12-12-2021-outreachy-introduction/">
+<script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","articleSection":"post","name":"HTTP Edit \u0026 Resend Panel","headline":"HTTP Edit \u0026 Resend Panel","alternativeHeadline":"","description":"
+      A introduction about my Outreachy internship
+
+
+    ","inLanguage":"en","isFamilyFriendly":"true","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/claubatista.github.io\/post\/01-31-2022-edit-and-resend\/"},"author":{"@type":"Person","name":"Clau Batista"},"creator":{"@type":"Person","name":"Clau Batista"},"accountablePerson":{"@type":"Person","name":"Clau Batista"},"copyrightHolder":{"@type":"Person","name":"Clau Batista"},"copyrightYear":"2022","dateCreated":"2022-01-15T00:00:00.00Z","datePublished":"2022-01-15T00:00:00.00Z","dateModified":"2022-01-15T00:00:00.00Z","publisher":{"@type":"Organization","name":"Clau Batista","url":"http://claubatista.github.io/","logo":{"@type":"ImageObject","url":"http:\/\/claubatista.github.io\/favicon-32x32.png","width":"32","height":"32"}},"image":[],"url":"http:\/\/claubatista.github.io\/post\/01-31-2022-edit-and-resend\/","wordCount":"259","genre":[],"keywords":["outreachy","internship","devtools","firefox"]}</script>
 </head>
 <body>
 <header><div class="page-top
@@ -120,48 +121,45 @@ Clau Batista
 <main>
 <div class=autopagerize_page_element>
 <div class=content>
-<div class="archive
+<div class="post
 animated fadeInDown">
-<ul class=list-with-title>
-<div class=listing-title>2022</div>
-<ul class=listing>
-<div class=listing-item>
-<div class=listing-post>
-<a href=/post/01-15-2022-patch-stack/ title="Patch stacks">Patch stacks</a>
-<div class=post-time>
+<div class=post-content>
+<div class=post-title>
+<h1>HTTP Edit & Resend Panel</h1>
+<div class=info>
+<em class="fas fa-calendar-day"></em>
 <span class=date>
-15 Jan
+15 Jan 2022
 </span>
+<em class="fas fa-stopwatch"></em>
+<span class=reading-time>2-minute read</span>
 </div>
-</div>
-</div>
+</div><p>hello everyone 🤙🏼</p>
+<p>Today I will present my project to you.</p>
+<p>The Firefox DevTools have an Edit & Resend Panel and the goal of my project is to create a new one, based on the old one but with new user interface and functionalities.</p>
+<p><img src=/images/01-31-2022-old-panel.png alt="Screenshot 2022-01-30 at 17.12.57.png"></p>
+<h3 id=why-create-a-new-one>Why create a new one?</h3>
+<p>We didn’t create one from scratch, we created the new one based on the old one. We used the same structure of the old one, but tried to simplify the code. The old one used Redux, and now we avoided using Redux as much as possible as not to put too much complexity into the code, and to make it easier to maintain in the future.</p>
+<h3 id=what-is-it-edit--resend>What is it Edit & Resend?</h3>
+<p>The Edit and Resend is a panel through which the developer can send a synthetic HTTP network request. It is useful for building, testing and using REST APIs.</p>
+<h3 id=how-is-the-project-going>How is the project going?</h3>
+<p>The project is going well. Now I’m finishing the interface changes. I have already done the first part of the project, which was to change the panel to the other side, to add all basic functionalities and put everything behind a pref.</p>
+<p>On Feb 8th will the release of Firefox 99. All my changes will be available there for testing behind a pref <strong>“devtools.netmonitor.features.newEditAndResend”</strong> and on Firefox Nightly by default. Before then, I will write a new blog detailing all the changes.</p>
+<p>I’ll leave you with a small spoiler of the new panel before the UI changes:</p>
+<p><img src=/images/01-31-2022-new-panel.png alt="Screenshot 2022-01-30 at 17.50.27.png"></p>
+<p>See you next week, thanks for reading. 🙂</p>
+<h3>Posts in this Series</h3>
+<ul>
+<li><a href=/post/01-31-2022-edit-and-resend/>HTTP Edit & Resend Panel</a></li>
+<li><a href=/post/01-15-2022-patch-stack/>Patch stacks</a></li>
+<li><a href=/post/12-12-2021-outreachy-introduction/>Outreachy Indroduction</a></li>
 </ul>
-<ul class=listing>
-<div class=listing-item>
-<div class=listing-post>
-<a href=/post/01-31-2022-edit-and-resend/ title="HTTP Edit & Resend Panel">HTTP Edit & Resend Panel</a>
-<div class=post-time>
-<span class=date>
-15 Jan
-</span>
+</div>
+<div class=post-footer>
+<div class=info>
+<span class=separator><a class=tag href=/tags/outreachy/>outreachy</a><a class=tag href=/tags/internship/>internship</a><a class=tag href=/tags/devtools/>devtools</a><a class=tag href=/tags/firefox/>firefox</a></span>
 </div>
 </div>
-</div>
-</ul>
-<div class=listing-title>2021</div>
-<ul class=listing>
-<div class=listing-item>
-<div class=listing-post>
-<a href=/post/12-12-2021-outreachy-introduction/ title="Outreachy Indroduction">Outreachy Indroduction</a>
-<div class=post-time>
-<span class=date>
-12 Dec
-</span>
-</div>
-</div>
-</div>
-</ul>
-</ul>
 </div>
 </div>
 </div>
