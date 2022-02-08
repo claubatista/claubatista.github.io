@@ -1,0 +1,208 @@
+<!doctype html><html dir=ltr lang=en data-theme><head>
+<title>
+Clau Batista
+|
+New HTTP Edit & Resend Panel
+</title>
+<meta charset=utf-8><meta name=generator content="Hugo 0.92.1"><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name=description content="
+      brazilian lost in berlin, roller derby player, animal lover #dogperson
+and oh yeah, I also do some frontend developement.
+
+
+
+    ">
+<link rel=stylesheet href=/css/main.min.beb4ded4d3d7b57eaaf7abaedb95860a68a8e8c2320b688e547ba30ead224a19.css integrity="sha256-vrTe1NPXtX6q96uu25WGCmio6MIyC2iOVHujDq0iShk=" crossorigin=anonymous type=text/css>
+<link rel=stylesheet href=/css/markupHighlight.min.058b31f17db60602cc415fd63b0427e7932fbf35c70d8e341a4c39385f5f6f3e.css integrity="sha256-BYsx8X22BgLMQV/WOwQn55MvvzXHDY40Gkw5OF9fbz4=" crossorigin=anonymous type=text/css>
+<link rel=stylesheet href=/css/custom.min.cbae4dffd903004a7a5f847eaff48824c70bf349be9fb322717a21127debd3e9.css integrity="sha256-y65N/9kDAEp6X4R+r/SIJMcL80m+n7MicXohEn3r0+k=" crossorigin=anonymous media=screen>
+<link rel=stylesheet href=/css/styles.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css integrity="sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=" crossorigin=anonymous media=screen>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin=anonymous>
+<link rel=preconnect href=https://fonts.googleapis.com>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Krub&family=Krub:ital,wght@0,100;0,300;0,700;1,400&display=swap" rel=stylesheet>
+<link rel="shortcut icon" href=/favicon.ico type=image/x-icon>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=canonical href=/post/02-08-2022-new-edit-and-resend/>
+<script type=text/javascript src=/js/anatole-header.min.2a2cd9614b7d007dfbb75e8da19e3a0fa872ceab53c6d000c00b7a0c89b85bfc.js integrity="sha256-KizZYUt9AH37t16NoZ46D6hyzqtTxtAAwAt6DIm4W/w=" crossorigin=anonymous></script>
+<script type=text/javascript src=/js/anatole-theme-switcher.min.7fd87181cdd7e8413aa64b6867bb32f3a8dc242e684fc7d5bbb9f600dbc2b6eb.js integrity="sha256-f9hxgc3X6EE6pktoZ7sy86jcJC5oT8fVu7n2ANvCtus=" crossorigin=anonymous></script>
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="New HTTP Edit & Resend Panel">
+<meta name=twitter:description content="hello everyone 🤙🏼
+As I said on my previous blog post, in this one I’ll present more details about my Outreachy project.
+To recap, I’m an Outreachy intern at Mozilla working on the Network monitor on the Devtools team. The main goal of my project is to write a new Edit and Resend panel on the Netmonitor based on the current one, with an update interface. The Edit and Resend panel is a tool for sending custom HTTP requests directly through the Netmonitor interface.">
+<meta property="og:title" content="New HTTP Edit & Resend Panel">
+<meta property="og:description" content="hello everyone 🤙🏼
+As I said on my previous blog post, in this one I’ll present more details about my Outreachy project.
+To recap, I’m an Outreachy intern at Mozilla working on the Network monitor on the Devtools team. The main goal of my project is to write a new Edit and Resend panel on the Netmonitor based on the current one, with an update interface. The Edit and Resend panel is a tool for sending custom HTTP requests directly through the Netmonitor interface.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://claubatista.github.io/post/02-08-2022-new-edit-and-resend/"><meta property="article:section" content="post">
+<meta property="article:published_time" content="2022-02-08T00:00:00+00:00">
+<meta property="article:modified_time" content="2022-02-08T00:00:00+00:00"><meta property="og:site_name" content="Hi, I'm Clau!">
+<meta property="og:see_also" content="http://claubatista.github.io/post/01-31-2022-edit-and-resend/"><meta property="og:see_also" content="http://claubatista.github.io/post/01-15-2022-patch-stack/"><meta property="og:see_also" content="http://claubatista.github.io/post/12-12-2021-outreachy-introduction/">
+<script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","articleSection":"post","name":"New HTTP Edit \u0026 Resend Panel","headline":"New HTTP Edit \u0026 Resend Panel","alternativeHeadline":"","description":"
+      
+        hello everyone 🤙🏼\nAs I said on my previous blog post, in this one I’ll present more details about my Outreachy project.\nTo recap, I’m an Outreachy intern at Mozilla working on the Network monitor on the Devtools team. The main goal of my project is to write a new Edit and Resend panel on the Netmonitor based on the current one, with an update interface. The Edit and Resend panel is a tool for sending custom HTTP requests directly through the Netmonitor interface.
+
+
+      
+
+
+    ","inLanguage":"en","isFamilyFriendly":"true","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/claubatista.github.io\/post\/02-08-2022-new-edit-and-resend\/"},"author":{"@type":"Person","name":"Clau Batista"},"creator":{"@type":"Person","name":"Clau Batista"},"accountablePerson":{"@type":"Person","name":"Clau Batista"},"copyrightHolder":{"@type":"Person","name":"Clau Batista"},"copyrightYear":"2022","dateCreated":"2022-02-08T00:00:00.00Z","datePublished":"2022-02-08T00:00:00.00Z","dateModified":"2022-02-08T00:00:00.00Z","publisher":{"@type":"Organization","name":"Clau Batista","url":"http://claubatista.github.io/","logo":{"@type":"ImageObject","url":"http:\/\/claubatista.github.io\/favicon-32x32.png","width":"32","height":"32"}},"image":[],"url":"http:\/\/claubatista.github.io\/post\/02-08-2022-new-edit-and-resend\/","wordCount":"646","genre":[],"keywords":["outreachy","internship","devtools","firefox"]}</script>
+</head>
+<body>
+<header><div class="page-top
+animated fadeInDown">
+<a role=button class=navbar-burger data-target=navMenu aria-label=menu aria-expanded=false>
+<span aria-hidden=true></span>
+<span aria-hidden=true></span>
+<span aria-hidden=true></span>
+</a>
+<nav>
+<ul class=nav__list id=navMenu>
+<div class=nav__links>
+<li>
+<a href=/ title>Home</a>
+</li>
+<li>
+<a href=/post/ title>Posts</a>
+</li>
+</div>
+<ul>
+<li>
+<a class=theme-switch title="Switch Theme">
+<i class="fas fa-adjust fa-fw" aria-hidden=true></i>
+</a>
+</li>
+</ul>
+</ul>
+</nav>
+</div>
+</header>
+<div class=wrapper>
+<aside><div class="sidebar
+animated fadeInDown">
+<div class=sidebar__content>
+<div class=logo-title>
+<div class=title>
+<img src=/images/eu.jpg alt="profile picture">
+<h3 title><a href=/>Hi, I'm Clau!</a></h3>
+<div class=description>
+<p>brazilian lost in berlin, roller derby player, animal lover #dogperson<br>and oh yeah, I also do some frontend developement.<br></p>
+</div>
+</div>
+</div>
+<ul class=social-links>
+<li>
+<a href=https://www.linkedin.com/in/claubatista/ rel=me aria-label=Linkedin title=Linkedin>
+<i class="fab fa-linkedin fa-2x" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a href=https://github.com/claubatista rel=me aria-label=GitHub title=GitHub>
+<i class="fab fa-github fa-2x" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a href=mailto:cdsbatistax@gmail.com rel=me aria-label=e-mail title=e-mail>
+<i class="fas fa-envelope fa-2x" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a href=/index.xml rel=me aria-label=rss title=rss>
+<i class="fas fa-rss fa-2x" aria-hidden=true></i>
+</a>
+</li>
+</ul>
+</div><footer class="footer footer--sidebar">
+<div class=by_farbox>
+<ul class=footer__list>
+<li class=footer__item>
+&copy;
+Clau Batista
+2022
+</li>
+</ul>
+</div>
+</footer>
+<script type=text/javascript src=/js/medium-zoom.min.71100d84fab0ad794b8399a66ac810700cc78d703f715dc10af4d7ba7b761362.js integrity="sha256-cRANhPqwrXlLg5mmasgQcAzHjXA/cV3BCvTXunt2E2I=" crossorigin=anonymous></script></div>
+</aside>
+<main>
+<div class=autopagerize_page_element>
+<div class=content>
+<div class="post
+animated fadeInDown">
+<div class=post-content>
+<div class=post-title>
+<h1>New HTTP Edit & Resend Panel</h1>
+<div class=info>
+<em class="fas fa-calendar-day"></em>
+<span class=date>
+08 Feb 2022
+</span>
+<em class="fas fa-stopwatch"></em>
+<span class=reading-time>4-minute read</span>
+</div>
+</div><p>hello everyone 🤙🏼</p>
+<p>As I said on my <a href=https://claubatista.github.io/post/01-31-2022-edit-and-resend/>previous blog post</a>, in this one I’ll present more details about my Outreachy project.</p>
+<p>To recap, I’m an Outreachy intern at Mozilla working on the Network monitor on the Devtools team. The main goal of my project is to write a new Edit and Resend panel on the Netmonitor based on the current one, with an update interface. The Edit and Resend panel is a tool for sending custom HTTP requests directly through the Netmonitor interface.</p>
+<p>I just finished implementing most of the features and updates that were planned, and now I’m going into a new phase of the project where I’ll focus more on testing.</p>
+<h2 id=what-is-new>What is new?</h2>
+<h3 id=opening-the-panel>Opening the panel</h3>
+<p>Just like the current panel, the new panel can be opened by right-clicking on any request on the Network panel and selecting the “Edit and Resend” option.</p>
+<p><img src=/images/02-08-2022-edit-and-resend.gif alt=edit-and-resend.gif></p>
+<p>Notice that the new panel is now on the left side, we made this change so that users could inspect a request on the right panel and still have the edit and resend panel open.</p>
+<p>There is also a new way to open the panel through toolbar</p>
+<p><img src=/images/02-08-2022-toolbar.gif alt=toolbar.gif></p>
+<p>When the panel is open using this method, it is empty. This is useful for the case when a user wants to send a new request not based on any of the listed ones.</p>
+<h3 id=using-the-panel>Using the panel</h3>
+<p>One of the most different areas on the new panel is the headers section. The current panel provides only a textarea for editing headers, where each header is separated by a new line and the name and value are separated by a colon. On the new panel, each header has its own line and the name and value are in different input areas. When a user wants to add a new header, they can do so by using the fields on the last line of the header section and clicking enter. There are minor validations at this point to disallow headers with empty names and values.</p>
+<p><img src=/images/02-08-2022-headers.gif alt=headers.gif></p>
+<p>Once a header is added, it can be deleted from the list simply by hovering on it and clicking on the “x” sign that shows up. The headers name and value can also be edited. Only headers which are added by the browser cannot be deleted or edited and show up as disabled on the list. Finally, there is also a checkbox next to each header to disable/enable it without deleting.</p>
+<p><img src=/images/02-08-2022-headers-disable.gif alt=headers-disabel.gif></p>
+<p>The URL query parameters section looks very similar to the headers one, however it is not as feature intensive. In order to edit, delete or add query params changes need to be made directly on the URL field, these changes are then mirrored on the query parameters section.</p>
+<p><img src=/images/02-08-2022-query-params.gif alt=params.gif></p>
+<p>The only thing that can be done through the query parameter section directly is to check or uncheck a given query param.</p>
+<p><img src=/images/02-08-2022-query-params-disable.gif alt=params-disable.gif></p>
+<p>Some other updates that are worth calling out are:</p>
+<ol>
+<li>the clear button, which was added right next to the send button and is an easy way to clear the whole form;</li>
+<li>the input areas for the URL and Headers auto grow in height as you type;</li>
+<li>and whenever a new request is made successfully it is automatically selected and the panel on the right side of the Netmonitor is opened for the user to check out details on the new request.</li>
+</ol>
+<h3 id=what-are-the-next-steps>What are the next steps?</h3>
+<p>I still have a little over a month before the internship period ends.</p>
+<p>My goals from now on are to work on testing and improving the interface and its accessibility.</p>
+<p>I’m very happy to work on this project and have the opportunity to contribute to the Firefox Devtools. None of the changes that I describe here would have been possible without all the help that I got from my mentors: bomsy and Honza.</p>
+<p>I hope you have also liked the new changes.</p>
+<h3>Posts in this Series</h3>
+<ul>
+<li><a href=/post/02-08-2022-new-edit-and-resend/>New HTTP Edit & Resend Panel</a></li>
+<li><a href=/post/01-31-2022-edit-and-resend/>HTTP Edit & Resend Panel</a></li>
+<li><a href=/post/01-15-2022-patch-stack/>Patch stacks</a></li>
+<li><a href=/post/12-12-2021-outreachy-introduction/>Outreachy Indroduction</a></li>
+</ul>
+</div>
+<div class=post-footer>
+<div class=info>
+<span class=separator><a class=tag href=/tags/outreachy/>outreachy</a><a class=tag href=/tags/internship/>internship</a><a class=tag href=/tags/devtools/>devtools</a><a class=tag href=/tags/firefox/>firefox</a></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div><footer class="footer footer--base">
+<div class=by_farbox>
+<ul class=footer__list>
+<li class=footer__item>
+&copy;
+Clau Batista
+2022
+</li>
+</ul>
+</div>
+</footer>
+<script type=text/javascript src=/js/medium-zoom.min.71100d84fab0ad794b8399a66ac810700cc78d703f715dc10af4d7ba7b761362.js integrity="sha256-cRANhPqwrXlLg5mmasgQcAzHjXA/cV3BCvTXunt2E2I=" crossorigin=anonymous></script></body>
+</html>
