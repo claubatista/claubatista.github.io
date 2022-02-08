@@ -20,12 +20,21 @@ header {
 }
 
 aside .sidebar {
-  width: 15%;
+  width: 290px;
   left: initial;
 }
 
 .info {
   margin-left: 0;
+}
+
+@media (min-width: 1921px) {
+  .sidebar {
+    padding: 0;
+  }
+  .content {
+    padding-right: 0;
+  }
 }
 
 @media (max-width: 960px) {

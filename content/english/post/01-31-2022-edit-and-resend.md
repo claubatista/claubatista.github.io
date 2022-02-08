@@ -1,7 +1,7 @@
 ---
 author: Clau Batista
 title: HTTP Edit & Resend Panel
-date: 2022-01-15
+date: 2022-01-31
 description: A introduction about my Outreachy internship
 tags: [outreachy, internship, devtools, firefox]
 series:
